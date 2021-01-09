@@ -11,11 +11,12 @@ My machine did not have Java installed, so I did the following:
     sudo apt install default-jre
     ```
 
-* Check which version of Java was installed::
-
+* Check which version of Java was installed:
+    ```
     java --version
+    ```
 
-* This is what was installed on my machine::
+* This is what was installed on my machine:
 
     openjdk 11.0.9.1 2020-11-04
     OpenJDK Runtime Environment (build 11.0.9.1+1-Ubuntu-0ubuntu1.18.04)
