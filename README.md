@@ -6,9 +6,10 @@ Install Java Runtime Environment (JRE)
 
 My machine did not have Java installed, so I did the following:
 
-* Install Java runtime::
-
+* Install Java runtime
+    ```
     sudo apt install default-jre
+    ```
 
 * Check which version of Java was installed::
 
