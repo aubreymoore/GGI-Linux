@@ -41,6 +41,8 @@ Install GoldenGate Imagine
     
 * Allow GGI to update from the web. When the **Select Configuration** dialog appears, select **Default.imagine**. If more than one **Default.imagine** option is available, select the one with **https://tb.plazi.org/GgServer/Configurations/** in the **Config. Host** column.
 
+* Configure GGI to use **Java** display mode (not **System**).
+
 * Training material for GGI, including screencasts, is available at https://github.com/plazi/community.
 
 
@@ -49,7 +51,7 @@ Problems
 
 A couple of minor display problems are apparent.
 
-* There are no colored borders around buttons in the **Display Control** panel.
+* **FIXED BY SELECTING JAVA DISPLAY MODE:** There are no colored borders around buttons in the **Display Control** panel.
 
 - The document display does not automatically update after an annotation is made. The document display updates when scrolled.
 
