@@ -53,4 +53,4 @@ A couple of minor display problems are apparent.
 
 - The document display does not automatically update after an annotation is made. The document display updates when scrolled.
 
-.. image:: Screenshot.png
+![](Screenshot.png)
