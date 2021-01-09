@@ -1,8 +1,6 @@
-Installation of GoldenGATE Imagine on Linux (Ubuntu 18.04)
-==========================================================
+# Installation of GoldenGATE Imagine on Linux (Ubuntu 18.04)
 
-Install Java Runtime Environment (JRE)
---------------------------------------
+## Install Java Runtime Environment (JRE)
 
 My machine did not have Java installed, so I did the following:
 
@@ -17,29 +15,30 @@ My machine did not have Java installed, so I did the following:
     ```
 
 * This is what was installed on my machine:
+    * openjdk 11.0.9.1 2020-11-04
+    * OpenJDK Runtime Environment (build 11.0.9.1+1-Ubuntu-0ubuntu1.18.04)
+    * OpenJDK 64-Bit Server VM (build 11.0.9.1+1-Ubuntu-0ubuntu1.18.04, mixed mode, sharing)
 
-    openjdk 11.0.9.1 2020-11-04
-    OpenJDK Runtime Environment (build 11.0.9.1+1-Ubuntu-0ubuntu1.18.04)
-    OpenJDK 64-Bit Server VM (build 11.0.9.1+1-Ubuntu-0ubuntu1.18.04, mixed mode, sharing)
-
-Install GoldenGate Imagine
---------------------------
+## Install GoldenGate Imagine
 
 * Download GGI code::
-
+    ```
     mkdir GGI
     cd GGI
     wget https://tb.plazi.org/GgServer/Downloads/GgImagine-Default.imagine.zip
     unzip *.zip
     rm *.zip
+    ```
     
-* Make all **jar** files exectutable::
-
+* Make all **jar** files exectutable:
+    ```
     sudo find . -name "*.jar" -exec chmod +x -R {} \;
+    ```
 
-* Start GGImagine::
-
+* Start GGImagine:
+    ```
     java -jar GgImagineStarter.jar
+    ```
     
 * Allow GGI to update from the web. When the **Select Configuration** dialog appears, select **Default.imagine**. If more than one **Default.imagine** option is available, select the one with **https://tb.plazi.org/GgServer/Configurations/** in the **Config. Host** column.
 
@@ -47,9 +46,7 @@ Install GoldenGate Imagine
 
 * Training material for GGI, including screencasts, is available at https://github.com/plazi/community.
 
-
-Problems
---------
+## Problems
 
 A couple of minor display problems are apparent.
 
