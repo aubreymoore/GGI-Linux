@@ -1,6 +1,6 @@
 # Installing GoldenGATE Imagine on Linux (Ubuntu 18.04)
 
-## Install Java Runtime Environment (JRE)
+## Install Java
 
 My machine did not have Java installed, so I did the following:
 
