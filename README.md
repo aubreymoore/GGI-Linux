@@ -1,4 +1,4 @@
-# Installation of GoldenGATE Imagine on Linux (Ubuntu 18.04)
+# Installing GoldenGATE Imagine on Linux (Ubuntu 18.04)
 
 ## Install Java Runtime Environment (JRE)
 
