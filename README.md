@@ -42,13 +42,17 @@ My machine did not have Java installed, so I did the following:
     ```
     
 * Allow GGI to update from the web. When the **Select Configuration** dialog appears, select **Default.imagine**. If more than one **Default.imagine** option is available, select the one with **https://tb.plazi.org/GgServer/Configurations/** in the **Config. Host** column. Now click the **Configure** button.
+
 ![](select_configuration.png)
 
 * Select **JAVA** for **Look & Feel**. This is important, GGI does not display proper color coding using the **SYSTEM** setting.
+
 ![](config.png)
 
 ## Notes
 
 * Training material for GGI, including screencasts, is available at https://github.com/plazi/community.
+
+## Screen Shot
 
 ![](Screenshot.png)
