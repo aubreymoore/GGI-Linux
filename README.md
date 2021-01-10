@@ -41,22 +41,14 @@ My machine did not have Java installed, so I did the following:
     java -jar GgImagineStarter.jar
     ```
     
-* Allow GGI to update from the web. When the **Select Configuration** dialog appears, select **Default.imagine**. If more than one **Default.imagine** option is available, select the one with **https://tb.plazi.org/GgServer/Configurations/** in the **Config. Host** column.
+* Allow GGI to update from the web. When the **Select Configuration** dialog appears, select **Default.imagine**. If more than one **Default.imagine** option is available, select the one with **https://tb.plazi.org/GgServer/Configurations/** in the **Config. Host** column. Now click the **Configure** button.
 ![](select_configuration.png)
 
-* Configure GGI to use **Java** display mode (not **System**).
+* Select **JAVA** for **Look & Feel**. This is important, GGI does not display proper color coding using the **SYSTEM** setting.
 ![](config.png)
 
 ## Notes
 
 * Training material for GGI, including screencasts, is available at https://github.com/plazi/community.
-
-## Problems
-
-A couple of minor display problems are apparent.
-
-* **FIXED BY SELECTING JAVA DISPLAY MODE:** There are no colored borders around buttons in the **Display Control** panel.
-
-- The document display does not automatically update after an annotation is made. The document display updates when scrolled.
 
 ![](Screenshot.png)
