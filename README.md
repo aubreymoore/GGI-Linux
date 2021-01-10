@@ -34,6 +34,7 @@ My machine did not have Java installed, so I did the following:
     ```
     sudo find . -name "*.jar" -exec chmod +x -R {} \;
     ```
+## Running GoldenGate Imagine
 
 * Start GGImagine:
     ```
@@ -41,8 +42,12 @@ My machine did not have Java installed, so I did the following:
     ```
     
 * Allow GGI to update from the web. When the **Select Configuration** dialog appears, select **Default.imagine**. If more than one **Default.imagine** option is available, select the one with **https://tb.plazi.org/GgServer/Configurations/** in the **Config. Host** column.
+![](select_configuration.png)
 
 * Configure GGI to use **Java** display mode (not **System**).
+![](config.png)
+
+## Notes
 
 * Training material for GGI, including screencasts, is available at https://github.com/plazi/community.
 
