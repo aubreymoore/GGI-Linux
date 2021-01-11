@@ -51,7 +51,7 @@ My machine did not have Java installed, so I did the following:
 
 ## Problems
 
-* The display does not automatically refresh after annotation. A new annotation is color coded only after a scroll event.
+* The display does not automatically refresh after annotation. A new annotation is color coded only after a scroll event. https://youtu.be/sXXyBYvrOYs
 
 ## Notes
 
