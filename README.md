@@ -49,6 +49,10 @@ My machine did not have Java installed, so I did the following:
 
 ![](config.png)
 
+## Problems
+
+* The display does not automatically refresh after annotation. A new annotation is color coded only after a scroll event.
+
 ## Notes
 
 * Training material for GGI, including screencasts, is available at https://github.com/plazi/community.
