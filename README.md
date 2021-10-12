@@ -52,9 +52,10 @@ My machine did not have Java installed, so I did the following:
 ## Problems
 
 * The display does not automatically refresh after annotation. A new annotation is color coded only after a scroll event. https://youtu.be/sXXyBYvrOYs
+* Looks like the above problem has been fixed.
 
 ## Notes
-
+* My GGI installation survived an upgrade to Ububtu 20.04. Did not have to change anything.
 * Training material for GGI, including screencasts, is available at https://github.com/plazi/community.
 
 ## Screen Shot
